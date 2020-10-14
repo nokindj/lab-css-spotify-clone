@@ -1,8 +1,155 @@
 /*
 Colors:
-
 Text: 1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .navBar {
+    position: fixed, cover;
+    display: flex;	
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+  nav > img {
+   width : 170px;
+   float : left;
+   animation-name: bounce;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+  }
+
+@keyframes bounce {
+    0%, 100%, 50%, 80% 
+     {
+        transform: translateY(0px)
+    }
+    
+    60% {
+        transform: translateY(-30px)
+    }
+}
+  h1 {
+    margin : 0;
+    font-size : 90px; 
+  }
+  ul > li {
+    text-decoration : none; 
+    color : black; 
+    margin : 3px  ;
+    border : 10px;
+    padding : 10px;
+    float : left; 
+    display: flex;
+    justify-content: flex-end;
+   
+   
+  }
+  .header > h3 {
+    font-size : 20px;
+  }
+  .header {
+    background-image : url(../images/landing.jpg);
+    background-size : cover;
+    width : 100%;  
+    background-repeat : no-repeat; 
+    color : white; 
+    text-align : center;
+    background-position : center;
+    text-justify: center;
+    padding-top : 300px;
+    padding-bottom : 300px;
+  }
+  section > h3 {
+    text-align : center;
+    font-size : 40px;
+    text-decoration : underline #00B172; 
+  }
+  div > h4 {
+    color : #00B172;
+    font-size : 20px;
+  }
+  .songs {
+    float : left;
+    Width: 300px;
+    margin: 40px auto 0 auto;
+    Padding:100px 100px 100px 100px;
+    Border: 200px black solid 0.2; 
+    text-align : center;
+  }
+  .songs > img {
+    height: 140px; 
+    width: 140px;
+  }
+  .music > img {
+    height: 140px; 
+    width: 140px;
+  }
+  .music {
+    float : left;
+    Width: 300px;
+    margin: 40px auto 0 auto;
+    Padding:100px 100px 100px 100px;
+    Border: 200px black solid 0.2; 
+    text-align : center;
+  }
+  .stream > img {
+    height: 140px; 
+    width: 140px;
+  }
+  .stream {
+    float : left;
+    Width: 300;
+    margin: 40px auto 0 auto;
+    Padding: 100px 100px 100px 100px;
+    Border: 200px black solid 0.2; 
+    text-align : center;
+  }
+  
+  .kanye {
+    background-color : #00B172;
+    background-image : url(../images/spotify-icon-white.png);
+    background-repeat : no-repeat;
+    background-position : center; 
+    background-size : 200px;
+    clear : both; 
+    margin : 40px;
+    padding : 20px;
+    height : 650px;
+    font-size : 25px; 
+    color : white; 
+  }
+  .kanye > img {
+    height: 650px; 
+    width: 400px;
+  }
+  .lastPhoto {
+    float : right; 
+  }
+  .last {
+    color : white;
+    font-size : 30px; 
+  }
+  .kanyePhrase {
+    text-decoration: underline;
+   color: white;
+   position: absolute;
+   align-items: left;
+
+  }
+  li {
+    list-style-type: none; 
+  }
+  .lastSection {
+      background-color: rgb(9, 155, 53);
+      
+  }
+  .kanye > p {
+      color: white;
+  }
