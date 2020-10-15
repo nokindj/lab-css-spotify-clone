@@ -69,6 +69,7 @@ body {
   section > h3 {
     text-align : center;
     font-size : 40px;
+    
     text-decoration : underline #00B172; 
   }
   div > h4 {
@@ -117,7 +118,7 @@ body {
     background-image : url(../images/spotify-icon-white.png);
     background-repeat : no-repeat;
     background-position : center; 
-    background-size : 150px;
+    background-size : 135px;
     clear : both; 
     margin : 70px;
     padding : 20px;
@@ -128,13 +129,22 @@ body {
   }
 
   .kanye2 {
-    align-items: flex-start;
+  width: auto;
+  height: auto;
+  float: left;
+  }
+  .kanye3 {
+   padding: 110px;
+  }
+  h3 {
+    padding: 20px;
   }
   
   .kanye > img {
-    height: 400px; 
-    width: 400px;
+    height: 640px; 
+    width: 360px;
     float: right;
+    padding: 90px;
     
   }
   .lastPhoto {
@@ -155,6 +165,6 @@ body {
     list-style-type: none; 
   }
  
-  .kanye > p {
+  .kanye3 > p {
       color: white;
   }
