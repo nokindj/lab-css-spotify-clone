@@ -117,17 +117,25 @@ body {
     background-image : url(../images/spotify-icon-white.png);
     background-repeat : no-repeat;
     background-position : center; 
-    background-size : 200px;
+    background-size : 150px;
     clear : both; 
-    margin : 40px;
+    margin : 70px;
     padding : 20px;
-    height : 650px;
+    width: 1250px;
+    height : 850px;
     font-size : 25px; 
-    color : white; 
+    color :green; 
   }
+
+  .kanye2 {
+    align-items: flex-start;
+  }
+  
   .kanye > img {
-    height: 650px; 
+    height: 400px; 
     width: 400px;
+    float: right;
+    
   }
   .lastPhoto {
     float : right; 
@@ -146,10 +154,7 @@ body {
   li {
     list-style-type: none; 
   }
-  .lastSection {
-      background-color: rgb(9, 155, 53);
-      
-  }
+ 
   .kanye > p {
       color: white;
   }
